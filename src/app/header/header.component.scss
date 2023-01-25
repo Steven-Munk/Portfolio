@@ -1,0 +1,46 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(20, 29, 47);
+}
+
+.header {
+    width: 90vw;
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        gap: 50px;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 23px;
+
+        &:hover {
+            cursor: pointer;
+            transition: 75ms ease-in-out;
+            color: rgb(250, 121, 2);
+        }
+    }
+}
+
+/*1378 = 100*(1240/90)*/
+@media (max-width: 1378px) {
+
+    .header {
+        max-width: 90vw;
+    }
+
+}
