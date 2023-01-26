@@ -1,2 +1,103 @@
 .about-me-container {
+    width: 100%;
+    height: calc(100vh - 110px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    p {
+        hyphens: auto; 
+        text-align: justify
+    }
+}
+
+
+.about-me-content {
+    width: 100%;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    h2 {
+        width: 100% !important;
+    }
+}
+
+
+.main-p {
+    margin-block: 35px;
+}
+
+
+.about-me-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+    :first-child {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        :first-child {
+            width: auto;
+            cursor: pointer;
+            transition: 75ms ease-in-out;
+            &:hover {
+                transform-origin: top;
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    p {
+        margin: 0px;
+    }
+
+    :last-child {
+        width: 80%;
+    }
+}
+
+.about-me-imgbox {
+    position: relative;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 100%;
+    border: 4px solid rgb(250, 121, 2);
+    object-fit: cover;
+}
+
+
+.red-profile-shadow {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.orange-profile-line {
+    position: absolute;
+    width: 1000px;
+    height: 4px;
+    right: -1007px;
+    top: 50%;
+    z-index: -1;
+}
+
+
+/*1378 = 100*(1240/90)*/
+@media (max-width: 1378px) {
+
+    .about-me-content {
+        max-width: 90vw;
+    }
+
 }
