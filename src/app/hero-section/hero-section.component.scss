@@ -1,4 +1,4 @@
-.container {
+.hero-container {
     margin-top: 110px;
     background-color: rgb(20, 29, 47);
 
@@ -28,14 +28,6 @@
     display: flex;
     align-items: center;
     margin-top: 200px;
-
-    h1 {
-        font-weight: 700;
-        font-size: 90px;
-        height: 108px;
-        letter-spacing: 2px;
-        margin: 0px;
-    }
 
     div {
         display: flex;
