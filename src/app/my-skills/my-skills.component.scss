@@ -51,13 +51,16 @@
         align-items: center;
         text-align: center;
         gap: 10px;
-    }
-
-    img {
         cursor: pointer;
-        transition: 125ms ease-in-out;
+
+        img {
+            transition: 125ms ease-in-out;
+        }
+
         &:hover {
-            transform: translateY(-20px);
+            img {
+                transform: translateY(-20px);
+            }
         }
     }
 
