@@ -8,7 +8,7 @@
     overflow: hidden;
 
     p {
-        hyphens: auto; 
+        hyphens: auto;
         text-align: justify
     }
 }
@@ -20,8 +20,7 @@
 
 
 .about-me-content {
-    width: 100%;
-    max-width: 1240px;
+    width: 1240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
+    gap: 35px;
 
     :first-child {
         width: 20%;
@@ -53,6 +53,7 @@
             width: auto;
             cursor: pointer;
             transition: 75ms ease-in-out;
+
             &:hover {
                 transform-origin: top;
                 transform: scale(1.2);
@@ -62,10 +63,6 @@
 
     p {
         margin: 0px;
-    }
-
-    :last-child {
-        width: 80%;
     }
 }
 
@@ -102,7 +99,18 @@
 @media (max-width: 1378px) {
 
     .about-me-content {
-        max-width: 90vw;
+        width: 90vw;
     }
 
+}
+
+
+/* iPad & Tablet */
+@media (max-width: 768px) {
+
+    .about-me-section {
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
