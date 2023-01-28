@@ -78,6 +78,29 @@ button {
 }
 
 
+.only-mobile {
+     display: none !important;
+}
+
+.only-desktop {
+     display: flex !important;
+}
+
+
+/* iPad & Tablet */
+@media (max-width: 768px) {
+
+     .only-mobile {
+          display: flex !important;
+     }
+
+     .only-desktop {
+          display: none !important;
+     }
+
+}
+
+
 /* poppins-100 - latin */
 @font-face {
      font-family: 'Poppins';

@@ -47,3 +47,18 @@
     }
 
 }
+
+
+/* iPad & Tablet */
+@media (max-width: 768px) {
+
+    .header {
+        div {
+            gap: 10px;
+        }
+    }
+
+    .burger-menu{
+        flex-direction: column;
+    }
+}
