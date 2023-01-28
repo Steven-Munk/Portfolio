@@ -2,6 +2,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+
+.red-shadow-contact {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 
@@ -29,61 +37,68 @@ p {
 }
 
 
-
-
-
-
-
-
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 35px;
+
+    textarea {
+        resize: none;
+        height: 200px;
+    }
+
+    button {
+        width: 250px;
+    }
 }
 
 
 .contact-input {
     width: 615px;
-    max-width: 615px;
     background: none;
-    border-color:rgb(255, 71, 71);
+    border-color: rgb(255, 71, 71);
     border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
 
-        padding: 15px  25px;
-
+    &:hover {
+        border-color: #FA7902;
+    }
 }
 
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
+}
 
+input:focus,
+textarea:focus {
+    outline: none;
+}
 
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(20, 29, 47) inset !important;
+    -webkit-text-fill-color: white !important;
+}
 
 
 .scroll-up {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    img {
-        margin-block: 16px;
-    }
+    padding-block: 50px;
 }
