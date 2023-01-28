@@ -5,7 +5,14 @@
     flex-direction: column;
     overflow: hidden;
     position: relative;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
+    bottom: 150px;
+}
+
+
+#portfolioAnker {
+    position: absolute;
+    top: -110px;
 }
 
 

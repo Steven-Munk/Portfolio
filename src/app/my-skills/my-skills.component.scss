@@ -5,13 +5,20 @@
     width: 100%;
     height: calc(100vh - 110px);
     position: relative;
+    bottom: 150px;
+}
+
+
+#skillsAnker {
+    position: absolute;
+    top: -110px;
 }
 
 
 .red-line-skills {
     position: absolute;
     right: 0;
-    top: 220px;
+    top: 345px;
     z-index: -1;
 }
 

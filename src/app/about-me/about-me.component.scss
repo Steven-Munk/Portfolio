@@ -1,6 +1,6 @@
 .about-me-container {
     width: 100%;
-    height: calc(90vh - 110px);
+    height: calc(100vh - 110px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,11 @@
         hyphens: auto; 
         text-align: justify
     }
+}
+
+#aboutMeAnker {
+    position: absolute;
+    top: -110px;
 }
 
 
