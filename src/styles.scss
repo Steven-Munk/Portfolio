@@ -17,6 +17,26 @@ body {
 }
 
 
+/* width */
+::-webkit-scrollbar {
+     width: 8px;
+     position: absolute;
+     right: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: rgba(255,255,255,0.9);
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: rgb(255, 71, 71);
+}
+
+
 h2 {
      font-weight: 700;
      font-size: 90px;
