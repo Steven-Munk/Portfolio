@@ -108,6 +108,11 @@
 /* iPad & Tablet */
 @media (max-width: 768px) {
 
+    .about-me-container {
+        height: auto;
+        padding-top: 20px;
+    }
+
     .about-me-section {
         align-items: center;
         justify-content: center;

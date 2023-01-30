@@ -34,27 +34,21 @@
 .my-skills-content {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1240px;
     gap: 30px;
-    max-width: 1240px;
 }
 
 
 .my-skills-icons {
     display: flex;
-    flex-direction: column;
-    gap: 70px;
-}
-
-
-.my-skills-icons-row {
-    display: flex;
-    gap: 140px;
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 60px 115px;
 
     div {
-        width: 76px;
         display: flex;
         flex-direction: column;
+        width: 76px;
         align-items: center;
         text-align: center;
         gap: 10px;
@@ -70,11 +64,6 @@
             }
         }
     }
-
-    span {
-        font-weight: 700;
-        font-size: 16px;
-    }
 }
 
 
@@ -89,4 +78,62 @@
 h2 {
     align-self: flex-end;
     padding-bottom: 20px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/*1378 = 100*(1240/90)*/
+@media (max-width: 1378px) {
+
+    .my-skills-content {
+        width: 90vw;
+    }
+
+}
+
+
+/* skills icons */
+@media (max-width: 1100px) {
+
+    .my-skills-content {
+        width: 90vw;
+    }
+
+        .my-skills-icons {
+    gap: 40px 80px;
+    }
+
+}
+
+
+/* iPad & Tablet */
+@media (max-width: 768px) {
+
+    .my-skills-container {
+        bottom: 0px;
+        padding-top: 20px;
+        align-items: flex-start;
+    }
+
+    .my-skills-content {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .my-skills-icons {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .my-skills-icons-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
 }
