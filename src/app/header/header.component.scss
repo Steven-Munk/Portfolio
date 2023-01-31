@@ -1,8 +1,7 @@
 .container {
     z-index: 999;
     position: fixed;
-    left: 0;
-    right: 0;
+    width: 100%;
     top: 0;
     height: 110px;
 
@@ -11,11 +10,11 @@
     justify-content: center;
 
     background-color: rgb(20, 29, 47);
+    overflow: hidden;
 }
 
 .header {
-    width: 90vw;
-    max-width: 1240px;
+    width: 1240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +37,7 @@
 @media (max-width: 1378px) {
 
     .header {
-        max-width: 90vw;
+        width: 90vw;
     }
 
 }
@@ -53,7 +52,8 @@
         }
     }
 
-    .burger-menu{
+    .burger-menu {
         flex-direction: column;
     }
+
 }
