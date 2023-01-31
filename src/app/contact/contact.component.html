@@ -20,14 +20,14 @@
 
             </div>
 
-            <form action="">
+            <form (submit)="sendMail()" ngNativeValidate #myForm>
 
-                <input class="contact-input" type="text" placeholder="Your name" name="name">
-                <input class="contact-input" type="email" placeholder="Your email" name="message">
+                <input required class="contact-input" type="text" placeholder="Your name" name="name" #nameField>
+                <input required class="contact-input" type="email" placeholder="Your email">
 
-                <textarea class="contact-input" type="text" placeholder="Your message" name="message"></textarea>
+                <textarea required class="contact-input" type="text" placeholder="Your message" name="message" #messageField></textarea>
 
-                <button>Send message :)</button>
+                <button #sendButton>Send message :)</button>
 
             </form>
 
