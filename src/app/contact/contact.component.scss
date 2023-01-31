@@ -64,7 +64,7 @@ form {
 .contact-input {
     width: 615px;
     background: none;
-    border-color: rgb(255, 71, 71);
+    border: 1px solid rgb(255, 71, 71);
     border-radius: 10px;
     padding: 15px 25px;
     cursor: pointer;
@@ -95,9 +95,9 @@ textarea:focus::placeholder {
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px rgb(20, 29, 47) inset !important;
     -webkit-text-fill-color: white !important;
 }
@@ -108,4 +108,59 @@ input:-webkit-autofill:active{
     justify-content: flex-end;
     align-items: center;
     padding-block: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*1378 = 100*(1240/90)*/
+@media (max-width: 1378px) {
+
+    .contact-content {
+        width: 90vw;
+    }
+
+}
+
+
+/* iPad & Tablet */
+@media (max-width: 768px) {
+
+    .contact-mid-section {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 25px;
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 23px;
+        margin: 0px;
+        padding-block: 10px;
+    }
+
+    .contact-input {
+        width: calc(100% - 50px);
+    }
+
+    button {
+        margin-top: 0px;
+    }
+
+    .scroll-up {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .red-shadow-contact {
+        transform-origin: left bottom;
+        transform: scale(0.3);
+    }
+
 }
