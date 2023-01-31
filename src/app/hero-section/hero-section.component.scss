@@ -1,6 +1,5 @@
 .hero-container {
     margin-top: 110px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,8 +49,9 @@
 
 .red-line {
     position: absolute;
-    top: 18px;
+    top: 23px;
     left: 0;
+    height: 4px;
 }
 
 
@@ -103,6 +103,15 @@
 }
 
 
+@media (max-width: 1500px) {
+
+    .red-line {
+        width: 3vw;
+    }
+
+}
+
+
 /*1378 = 100*(1240/90)*/
 @media (max-width: 1378px) {
 
@@ -114,21 +123,30 @@
         max-width: 90vw;
     }
 
+    .hero-section {
+        transform-origin: right;
+        transform: scale(0.8);
+    }
+
 }
 
 
-/* iPad & Tablet */
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
 
     .hero-section {
-        width: 90vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         flex-grow: 1;
+        transform: scale(1);
     }
 
+}
+
+
+/* iPad & Tablet */
+@media (max-width: 768px) {
 
     .hero-img {
         top: 25%;
@@ -136,15 +154,16 @@
 
 
     .hero-text {
-        margin-top: 90%;
+        margin-top: 70%;
+
         img {
             width: 90vw;
         }
+
         a {
             left: 0px;
         }
     }
-
 
 
     button {
@@ -157,15 +176,16 @@
         align-items: center;
     }
 
+
     .red-line {
         height: 4px;
         width: 13vw;
         top: 15px;
     }
 
+
     .hero-bottom-content {
         justify-content: center;
     }
-
 
 }

@@ -126,6 +126,14 @@ input:-webkit-autofill:active {
         width: 90vw;
     }
 
+    .contact-mid-section {
+        gap: 60px;
+    }
+
+    .contact-input {
+        width: 45vw;
+    }
+
 }
 
 
@@ -134,8 +142,8 @@ input:-webkit-autofill:active {
 
     .contact-mid-section {
         flex-direction: column;
-        gap: 40px;
         margin-top: 25px;
+        gap: 40px;
     }
 
     h4 {
