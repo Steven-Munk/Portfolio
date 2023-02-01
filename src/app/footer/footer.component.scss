@@ -2,7 +2,6 @@
     width: 100%;
     height: 250px;
     border-top: 2px solid #FA7902;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +39,9 @@ a {
 
 .imprit-container {
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
     &:hover {
         div {
             transform: translateX(52px);
@@ -50,12 +52,12 @@ a {
 
 .red-line-imprint {
     width: 50px;
-    border: 1px solid red;
+    height: 0px;
+    border: 2px solid red;
     border-radius: 2px;
-
     position: relative;
-    right: 52px;
-    transition: 225ms ease-in-out;
+    right: 54px;
+    transition: 125ms ease-in-out;
 }
 
 
@@ -80,8 +82,6 @@ span {
 }
 
 
-
-
 /*1378 = 100*(1240/90)*/
 @media (max-width: 1378px) {
 
@@ -95,17 +95,18 @@ span {
 /* iPad & Tablet */
 @media (max-width: 768px) {
 
-
     .footer-container {
         height: auto;
         padding-bottom: 50px;
     }
+
 
     .footer-content {
         justify-content: center;
         flex-direction: column;
         gap: 25px;
     }
+
 
     .footer-left {
         img {
@@ -115,8 +116,9 @@ span {
         }
     }
 
+
     .imprit-container {
         padding-top: 10px;
     }
-
+    
 }

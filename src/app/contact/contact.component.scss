@@ -26,11 +26,13 @@
     flex-direction: column;
 }
 
+
 .contact-mid-section {
     display: flex;
     margin-top: 80px;
     gap: 150px;
 }
+
 
 h4 {
     font-weight: 700;
@@ -38,6 +40,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 10px;
 }
+
 
 p {
     margin-block: 15px;
@@ -77,6 +80,7 @@ form {
     }
 }
 
+
 input::placeholder,
 textarea::placeholder {
     font-family: 'Poppins';
@@ -84,15 +88,18 @@ textarea::placeholder {
     color: white;
 }
 
+
 input:focus,
 textarea:focus {
     outline: none;
 }
 
+
 input:focus::placeholder,
 textarea:focus::placeholder {
     color: transparent;
 }
+
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -111,14 +118,6 @@ input:-webkit-autofill:active {
 }
 
 
-
-
-
-
-
-
-
-
 /*1378 = 100*(1240/90)*/
 @media (max-width: 1378px) {
 
@@ -126,9 +125,11 @@ input:-webkit-autofill:active {
         width: 90vw;
     }
 
+
     .contact-mid-section {
         gap: 60px;
     }
+
 
     .contact-input {
         width: 45vw;
@@ -146,6 +147,7 @@ input:-webkit-autofill:active {
         gap: 40px;
     }
 
+
     h4 {
         font-weight: 700;
         font-size: 23px;
@@ -153,19 +155,23 @@ input:-webkit-autofill:active {
         padding-block: 10px;
     }
 
+
     .contact-input {
         width: calc(100% - 50px);
     }
 
+
     button {
         margin-top: 0px;
     }
+
 
     .scroll-up {
         padding-top: 70px;
         padding-bottom: 40px;
     }
 
+    
     .red-shadow-contact {
         transform-origin: left bottom;
         transform: scale(0.3);

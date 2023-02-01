@@ -1,6 +1,6 @@
 .about-me-container {
     width: 100%;
-    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +13,29 @@
     }
 }
 
+
 #aboutMeAnker {
     position: absolute;
     top: -110px;
+}
+
+
+.red-profile-shadow {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-height: calc(100vh - 110px);
+    z-index: -1;
+}
+
+
+.orange-profile-line {
+    position: absolute;
+    width: 1000px;
+    height: 4px;
+    right: -1007px;
+    top: 50%;
+    z-index: -1;
 }
 
 
@@ -66,32 +86,17 @@
     }
 }
 
+
 .about-me-imgbox {
     position: relative;
 }
+
 
 .profile-pic {
     width: 100%;
     border-radius: 100%;
     border: 4px solid rgb(250, 121, 2);
     object-fit: cover;
-}
-
-
-.red-profile-shadow {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-}
-
-.orange-profile-line {
-    position: absolute;
-    width: 1000px;
-    height: 4px;
-    right: -1007px;
-    top: 50%;
-    z-index: -1;
 }
 
 
@@ -113,6 +118,7 @@
         padding-top: 20px;
     }
 
+    
     .about-me-section {
         align-items: center;
         justify-content: center;

@@ -57,3 +57,23 @@
     }
 
 }
+
+
+/* iPad & Tablet */
+@media (max-width: 300px) {
+
+    .header {
+        a {
+            transform-origin: left;
+            transform: scale(0.8);
+            width: 40%;
+        }
+    }
+
+
+    .burger-menu {
+        transform-origin: right;
+        transform: scale(0.8);
+    }
+
+}

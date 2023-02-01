@@ -5,7 +5,7 @@
     width: 100%;
     height: calc(100vh - 110px);
     position: relative;
-    bottom: 150px;
+    bottom: 100px;
 }
 
 
@@ -75,10 +75,12 @@
     text-align: end;
 }
 
+
 h2 {
     align-self: flex-end;
     padding-bottom: 20px;
 }
+
 
 span {
     font-weight: 700;
@@ -93,6 +95,11 @@ span {
         width: 90vw;
     }
 
+
+    .red-line-skills {
+        width: 3vw;
+    }
+
 }
 
 
@@ -102,6 +109,7 @@ span {
     .my-skills-content {
         width: 90vw;
     }
+
 
     .my-skills-icons {
         gap: 40px 80px;
@@ -120,22 +128,26 @@ span {
         height: auto;
     }
 
+
     .my-skills-content {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
 
+
     .my-skills-icons {
         width: 100%;
         justify-content: center;
     }
+
 
     .my-skills-icons-row {
         display: flex;
         justify-content: space-between;
         gap: 0px;
     }
+
 
     .red-line-skills {
         top: 55px;
@@ -144,11 +156,12 @@ span {
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
     }
+    
 
     .orange-shadow-skills {
-    top: 400px;
-    transform-origin: left;
-    transform: scale(0.6);
-}
+        top: 400px;
+        transform-origin: left;
+        transform: scale(0.6);
+    }
 
 }
