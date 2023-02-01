@@ -1,0 +1,47 @@
+.menu-container {
+  position: fixed;
+  top: 110px;
+  left: 0px;
+  right: 0px;
+  height: calc(100vh - 110px);
+  z-index: 10;
+  overflow: hidden;
+
+
+  :hover {
+    
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    div {
+        
+transform: translateX(-500px);
+    }
+  }
+
+
+}
+
+
+.-active {
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.menu {
+    position: relative;
+    left: 100vw;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1000;
+    background-color: yellow;
+    transition: 125ms ease-in-out;
+}
+
+
+.-open {
+transform: translateX(-500px);
+}

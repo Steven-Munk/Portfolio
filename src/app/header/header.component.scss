@@ -1,79 +1,106 @@
-.container {
-    z-index: 999;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    height: 110px;
+.header-container {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 110px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: rgb(20, 29, 47);
-    overflow: hidden;
+  background-color: rgb(20, 29, 47);
+  overflow: hidden;
 }
 
 .header {
-    width: 1240px;
+  width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 50px;
+  }
 
-    div {
-        display: flex;
-        gap: 50px;
+  a {
+    &:hover {
+      cursor: pointer;
+      transition: 75ms ease-in-out;
+      color: rgb(250, 121, 2);
     }
+  }
+}
 
-    a {
-        &:hover {
-            cursor: pointer;
-            transition: 75ms ease-in-out;
-            color: rgb(250, 121, 2);
-        }
-    }
+.menu-container {
+  z-index: 999;
+  //   z-index: -10;
+  position: fixed;
+  top: 110px;
+  width: 100%;
+  height: calc(100vh - 110px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu {
+  position: fixed;
+  right: 0px;
+  width: 70%;
+  height: calc(100vh - 110px);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #414856;
+  // transform: translateX(70vw);
+  //     transform: translateX(0vw);
+  transition: 125ms ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  :first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 20px;
+  }
 }
 
 /*1378 = 100*(1240/90)*/
 @media (max-width: 1378px) {
-
-    .header {
-        width: 90vw;
-    }
-
+  .header {
+    width: 90vw;
+  }
 }
-
 
 /* iPad & Tablet */
 @media (max-width: 768px) {
-
-    .header {
-        div {
-            gap: 10px;
-        }
+  .header {
+    div {
+      gap: 10px;
     }
+  }
 
-    .burger-menu {
-        flex-direction: column;
-    }
-
+  .burger-menu {
+    flex-direction: column;
+  }
 }
-
 
 /* iPad & Tablet */
 @media (max-width: 300px) {
-
-    .header {
-        a {
-            transform-origin: left;
-            transform: scale(0.8);
-            width: 40%;
-        }
+  .header {
+    a {
+      transform-origin: left;
+      transform: scale(0.8);
+      width: 40%;
     }
+  }
 
-
-    .burger-menu {
-        transform-origin: right;
-        transform: scale(0.8);
-    }
-
+  .burger-menu {
+    transform-origin: right;
+    transform: scale(0.8);
+  }
 }
