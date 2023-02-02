@@ -33,26 +33,18 @@
   }
 }
 
-.menu-container {
-  z-index: 999;
-  //   z-index: -10;
-  position: fixed;
-  top: 110px;
-  width: 100%;
-  height: calc(100vh - 110px);
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
 .menu {
+  z-index: 1000;
   position: fixed;
   right: 0px;
+  top: 110px;
   width: 70%;
   height: calc(100vh - 110px);
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   background-color: #414856;
-  // transform: translateX(70vw);
-  //     transform: translateX(0vw);
+  transform: translateX(70vw);
+
   transition: 125ms ease-in-out;
 
   display: flex;
@@ -67,6 +59,10 @@
     text-align: start;
     gap: 20px;
   }
+}
+
+.menu-slide {
+  transform: translateX(0vw);
 }
 
 /*1378 = 100*(1240/90)*/
@@ -103,4 +99,8 @@
     transform-origin: right;
     transform: scale(0.8);
   }
+}
+
+.d-none {
+  display: none !important;
 }

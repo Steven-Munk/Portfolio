@@ -8,7 +8,7 @@
       <a href="#portfolioAnker">Portfolio</a>
     </div>
 
-    <div class="burger-menu only-mobile">
+    <div (click)="toggleMenu()" class="burger-menu only-mobile">
       <img src="assets/imgs/burger_menu_line.png" />
       <img src="assets/imgs/burger_menu_line.png" />
       <img src="assets/imgs/burger_menu_line.png" />
@@ -16,15 +16,13 @@
   </div>
 </div>
 
-<!-- <div class="menu-container">
-  <div class="menu">
+  <div class="menu" id="menu">
     <div>
-      <a href="#aboutMeAnker">Aboute me</a>
-      <a href="#skillsAnker">Skills</a>
-      <a href="#portfolioAnker">Portfolio</a>
-      <a href="#contactAnker">Contact</a>
+      <a (click)="toggleMenu()" href="#aboutMeAnker">Aboute me</a>
+      <a (click)="toggleMenu()" href="#skillsAnker">Skills</a>
+      <a (click)="toggleMenu()" href="#portfolioAnker">Portfolio</a>
+      <a (click)="toggleMenu()" href="#contactAnker">Contact</a>
     </div>
 
-    <a href="#heroAnker">Impressum</a>
+    <a (click)="toggleMenu()" href="#">Impressum</a>
   </div>
-</div> -->
