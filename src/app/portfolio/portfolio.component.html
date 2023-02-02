@@ -23,11 +23,9 @@
 
                 <div class="single-project" [ngClass]="{'-odd': project.imgLeft == true, '-even': project.imgLeft == false}">
 
-                    <div *ngIf="project.imgLeft">
     
-                        <img src="{{ project.img }}">
+                        <img *ngIf="project.imgLeft" src="{{ project.img }}">
     
-                    </div>
     
                     <div class="project-text" [ngClass]="{'align-right': project.imgLeft == false}">
     
@@ -49,11 +47,9 @@
     
                     </div>
     
-                    <div *ngIf="!project.imgLeft">
     
-                        <img src="{{ project.img }}">
+                        <img *ngIf="!project.imgLeft" src="{{ project.img }}">
     
-                    </div>
     
                 </div>
                 
