@@ -23,7 +23,7 @@ export class PortfolioComponent {
       description: 'simple Jump-and-Run game based on an object-oriented approach. Help pepe to defeat fred the crazy chicken.',
       img: 'assets/imgs/el_pollo_loco_img.png',
       github:'https://github.com/Icetune/Pollo-Loco',
-      liveTest:'#',
+      liveTest:'https://steven-munk.developerakademie.net/El%20Pollo%20Loco/index.html',
       imgLeft: false
     },
     {
@@ -41,7 +41,7 @@ export class PortfolioComponent {
       description: 'Based on the PokéAPI a simple library that provides and catalogues pokemon information.',
       img: 'assets/imgs/pokedex_img.png',
       github:'https://github.com/Icetune/PokeDex',
-      liveTest:'#',
+      liveTest:'https://steven-munk.developerakademie.net/Pokedex/index.html',
       imgLeft: false
     },
     {
