@@ -13,6 +13,8 @@ export class PortfolioComponent {
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
       description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
       img: 'assets/imgs/join_img.png',
+      github:'https://github.com/Icetune/Join',
+      liveTest:'#',
       imgLeft: true
     },
     {
@@ -20,6 +22,8 @@ export class PortfolioComponent {
       foundation: 'JavaScript | HTML | CSS',
       description: 'simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.',
       img: 'assets/imgs/el_pollo_loco_img.png',
+      github:'https://github.com/Icetune/Pollo-Loco',
+      liveTest:'#',
       imgLeft: false
     },
     {
@@ -27,6 +31,8 @@ export class PortfolioComponent {
       foundation: 'Angular | Firebase',
       description: 'A very Simple Customer Relationship Management system working with CRUD functionality.',
       img: 'assets/imgs/placeholder_profile.png',
+      github:'#',
+      liveTest:'#',
       imgLeft: true
     },
     {
@@ -34,6 +40,8 @@ export class PortfolioComponent {
       foundation: 'JavaScript | HTML | CSS | Api',
       description: 'Based on the PokéAPI a simple library that provides and catalogues pokemon information.',
       img: 'assets/imgs/pokedex_img.png',
+      github:'https://github.com/Icetune/PokeDex',
+      liveTest:'#',
       imgLeft: false
     },
     {
@@ -41,6 +49,8 @@ export class PortfolioComponent {
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod ea placeat architecto ad natus',
       img: 'assets/imgs/placeholder_profile.png',
+      github:'https://github.com/Icetune/Ring-of-Fire',
+      liveTest:'#',
       imgLeft: true
     },
   ];

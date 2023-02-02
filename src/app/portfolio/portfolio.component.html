@@ -21,38 +21,35 @@
 
             <div *ngFor="let project of projects">
 
-                <div class="single-project" [ngClass]="{'-odd': project.imgLeft == true, '-even': project.imgLeft == false}">
+                <div class="single-project"
+                    [ngClass]="{'-odd': project.imgLeft == true, '-even': project.imgLeft == false}">
 
-    
-                        <img *ngIf="project.imgLeft" src="{{ project.img }}">
-    
-    
+                    <img *ngIf="project.imgLeft" src="{{ project.img }}">
+
                     <div class="project-text" [ngClass]="{'align-right': project.imgLeft == false}">
-    
+
                         <h3>{{ project.name }}</h3>
                         <span>{{ project.foundation }}</span>
                         <p>{{ project.description }}</p>
-    
+
                         <div>
-    
+
                             <button>
                                 Live test
                             </button>
-    
-                            <a href="#" target="_blank">
+
+                            <a href="{{project.github}}" target="_blank">
                                 Github
                             </a>
-    
+
                         </div>
-    
+
                     </div>
-    
-    
-                        <img *ngIf="!project.imgLeft" src="{{ project.img }}">
-    
-    
+
+                    <img *ngIf="!project.imgLeft" src="{{ project.img }}">
+
                 </div>
-                
+
             </div>
 
         </div>
