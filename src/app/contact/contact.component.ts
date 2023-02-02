@@ -26,14 +26,16 @@ export class ContactComponent {
     messageField.disabled = true;
     sendButton.disabled = true;
 
-   //Animation anzeigen
-
     let fd = new FormData();
     fd.append('name', nameField.value);
     fd.append('email', emailField.value);
     fd.append('message', messageField.value);
 
-    //senden
+    alert('Thank you for your message! I will reply to you as soon as possible.');
+    
+    nameField.value = '';
+    emailField.value = '';
+    messageField.value = '';
 
     await fetch('https://steven-munk.developerakademie.net/send_mail/send_mail.php',
       {
@@ -42,12 +44,9 @@ export class ContactComponent {
       }
     )
 
-    // Text anzeigen: Nachricht gesendet
     nameField.disabled = false;
     emailField.disabled = false;
     messageField.disabled = false;
     sendButton.disabled = false;
-
-
   }
 }

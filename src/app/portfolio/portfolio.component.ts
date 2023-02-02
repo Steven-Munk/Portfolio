@@ -20,7 +20,7 @@ export class PortfolioComponent {
     {
       name: 'El Pollo Loco',
       foundation: 'JavaScript | HTML | CSS',
-      description: 'simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale.',
+      description: 'simple Jump-and-Run game based on an object-oriented approach. Help pepe to defeat fred the crazy chicken.',
       img: 'assets/imgs/el_pollo_loco_img.png',
       github:'https://github.com/Icetune/Pollo-Loco',
       liveTest:'#',
@@ -47,7 +47,7 @@ export class PortfolioComponent {
     {
       name: 'Ring of Fire',
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod ea placeat architecto ad natus',
+      description: 'A drinking game where you and your friends can pull cards of a stable, each card provides a different drinking task.',
       img: 'assets/imgs/placeholder_profile.png',
       github:'https://github.com/Icetune/Ring-of-Fire',
       liveTest:'#',
