@@ -45,7 +45,6 @@ button {
      cursor: pointer;
 
      &:hover {
-          transform-origin: top;
           transform: scale(1.1);
           background: #FF4747;
      }
@@ -114,7 +113,6 @@ h2 {
      .only-desktop {
           display: none !important;
      }
-
 
      h2 {
           font-size: 45px;

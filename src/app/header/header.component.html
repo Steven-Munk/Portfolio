@@ -8,21 +8,26 @@
       <a href="#portfolioAnker">Portfolio</a>
     </div>
 
-    <div (click)="toggleMenu()" class="burger-menu only-mobile">
-      <img src="assets/imgs/burger_menu_line.png" />
-      <img src="assets/imgs/burger_menu_line.png" />
-      <img src="assets/imgs/burger_menu_line.png" />
+    <div (click)="toggleMenu()" class="only-mobile">
+      <img class="burger-menu" src="assets/imgs/burger-menu.png"/>
     </div>
   </div>
 </div>
 
-  <div class="menu" id="menu">
+  <div class="menu-container only-mobile" id="menu">
+
     <div>
       <a (click)="toggleMenu()" href="#aboutMeAnker">Aboute me</a>
       <a (click)="toggleMenu()" href="#skillsAnker">Skills</a>
       <a (click)="toggleMenu()" href="#portfolioAnker">Portfolio</a>
       <a (click)="toggleMenu()" href="#contactAnker">Contact</a>
     </div>
+    
+    <img (click)="toggleMenu()" class="close-btn" src="assets/imgs/scroll_up_icon.png">
 
-    <a (click)="toggleMenu()" routerLink="/imprint">Imprint</a>
+    <div>
+      <a (click)="toggleMenu()" routerLink="/imprint">Impressum</a>
+      <a (click)="toggleMenu()" routerLink="/datenschutz">Datenschutz</a>
+    </div>
+
   </div>

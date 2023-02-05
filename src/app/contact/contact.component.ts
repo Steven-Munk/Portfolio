@@ -14,7 +14,6 @@ export class ContactComponent {
   @ViewChild('sendButton') sendButton!: ElementRef;
 
   async sendMail() {
-    console.log('sending mail', this.myForm);
 
     let nameField = this.nameField.nativeElement;   //***document.getElementById(''); */
     let emailField= this.emailField.nativeElement;
@@ -31,7 +30,7 @@ export class ContactComponent {
     fd.append('email', emailField.value);
     fd.append('message', messageField.value);
 
-    alert('Thank you for your message! I will reply to you as soon as possible.');
+   //Animtion
     
     nameField.value = '';
     emailField.value = '';

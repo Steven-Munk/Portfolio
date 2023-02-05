@@ -107,6 +107,20 @@
         width: 90vw;
     }
 
+
+    h2 {
+        font-size: 90px;
+    }
+
+}
+
+
+@media (max-width: 855px) {
+
+    h2 {
+        font-size: 80px;
+    }
+
 }
 
 
@@ -118,10 +132,15 @@
         padding-top: 20px;
     }
 
-    
+
     .about-me-section {
         align-items: center;
         justify-content: center;
     }
-    
+
+
+    h2 {
+        font-size: 45px;
+    }
+
 }

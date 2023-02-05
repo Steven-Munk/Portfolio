@@ -21,6 +21,9 @@
     flex-direction: column;
 
     div {
+        display: flex;
+        align-items: center;
+        gap: 0px 20px;
         cursor: pointer;
     }
 
@@ -44,19 +47,19 @@ a {
     
     &:hover {
         div {
-            transform: translateX(52px);
+            transform: translateX(70px);
         }
     }
 }
 
 
 .red-line-imprint {
-    width: 50px;
+    width: 90px;
     height: 0px;
     border: 2px solid red;
     border-radius: 2px;
     position: relative;
-    right: 54px;
+    right: 100px;
     transition: 125ms ease-in-out;
 }
 

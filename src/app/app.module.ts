@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { DatenschutzComponent } from './datenschutz/datenschutz.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ImprintComponent } from './imprint/imprint.component';
     ContactComponent,
     FooterComponent,
     MobileMenuComponent,
-    ImprintComponent
+    ImprintComponent,
+    DatenschutzComponent
   ],
   imports: [
     BrowserModule,
