@@ -48,6 +48,7 @@ p {
 
 
 form {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,6 +108,61 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px rgb(20, 29, 47) inset !important;
     -webkit-text-fill-color: white !important;
+}
+
+
+.send-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    overflow: hidden;
+    background-color: #141d2fd7;
+}
+
+
+.mail-img {
+    animation-name: mail-img-animation;
+    animation-duration: 4s;
+}
+
+@keyframes mail-img-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+}
+
+
+h3 {
+    animation-name: mail-text-animation;
+    animation-duration: 4s;
+}
+
+
+@keyframes mail-text-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1);
+    }
 }
 
 
@@ -171,7 +227,7 @@ input:-webkit-autofill:active {
         padding-bottom: 40px;
     }
 
-    
+
     .red-shadow-contact {
         transform-origin: left bottom;
         transform: scale(0.3);

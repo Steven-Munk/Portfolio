@@ -22,10 +22,18 @@
 
             <form (submit)="sendMail()" ngNativeValidate #myForm>
 
+                <div class="send-box" *ngIf="mailSent">
+                    
+                    <img class="mail-img" src="assets/imgs/email_sent.png">
+                    <h3>Thank you for your message!<br>I will reply to you as soon as possible.</h3>
+
+                </div>
+
                 <input required class="contact-input" type="text" placeholder="Your name" name="name" #nameField>
                 <input required class="contact-input" type="email" placeholder="Your email" name="email" #emailField>
 
-                <textarea required class="contact-input" type="text" placeholder="Your message" name="message" #messageField></textarea>
+                <textarea required class="contact-input" type="text" placeholder="Your message" name="message"
+                    #messageField></textarea>
 
                 <button #sendButton>Send message :)</button>
 
@@ -36,7 +44,7 @@
         <div class="scroll-up">
 
             <a href="#"><img src="assets/imgs/scroll_up_icon.png"></a>
-            
+
         </div>
 
     </div>
