@@ -1,33 +1,33 @@
 <div class="header-container">
   <div class="header">
-    <a routerLink="/"><img src="assets/imgs/steven_munk.png" /></a>
+    <a routerLink="/" data-aos="fade-right"><img src="assets/imgs/steven_munk.png" /></a>
 
-    <div class="only-desktop">
+    <div class="only-desktop" data-aos="fade-left">
       <a href="#aboutMeAnker">About me</a>
       <a href="#skillsAnker">Skills</a>
       <a href="#portfolioAnker">Portfolio</a>
     </div>
 
-    <div (click)="toggleMenu()" class="only-mobile">
-      <img class="burger-menu" src="assets/imgs/burger-menu.png"/>
+    <div (click)="toggleMenu()" class="only-mobile" data-aos="fade-left">
+      <img class="burger-menu" src="assets/imgs/burger-menu.png" />
     </div>
   </div>
 </div>
 
-  <div class="menu-container only-mobile" id="menu">
+<div class="menu-container only-mobile" id="menu">
 
-    <div>
-      <a (click)="toggleMenu()" href="#aboutMeAnker">Aboute me</a>
-      <a (click)="toggleMenu()" href="#skillsAnker">Skills</a>
-      <a (click)="toggleMenu()" href="#portfolioAnker">Portfolio</a>
-      <a (click)="toggleMenu()" href="#contactAnker">Contact</a>
-    </div>
-    
-    <img (click)="toggleMenu()" class="close-btn" src="assets/imgs/scroll_up_icon.png">
-
-    <div>
-      <a (click)="toggleMenu()" routerLink="/imprint">Impressum</a>
-      <a (click)="toggleMenu()" routerLink="/datenschutz">Datenschutz</a>
-    </div>
-
+  <div>
+    <a (click)="toggleMenu()" href="#aboutMeAnker">Aboute me</a>
+    <a (click)="toggleMenu()" href="#skillsAnker">Skills</a>
+    <a (click)="toggleMenu()" href="#portfolioAnker">Portfolio</a>
+    <a (click)="toggleMenu()" href="#contactAnker">Contact</a>
   </div>
+
+  <img (click)="toggleMenu()" class="close-btn" src="assets/imgs/scroll_up_icon.png">
+
+  <div>
+    <a (click)="toggleMenu()" routerLink="/imprint">Impressum</a>
+    <a (click)="toggleMenu()" routerLink="/datenschutz">Datenschutz</a>
+  </div>
+
+</div>
