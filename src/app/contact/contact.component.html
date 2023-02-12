@@ -6,11 +6,11 @@
 
     <div class="contact-content">
 
-        <h2>Contact</h2>
+        <h2 data-aos="fade-right">Contact</h2>
 
         <div class="contact-mid-section">
 
-            <div>
+            <div data-aos="fade-up">
 
                 <h4>Got a problem to solve?</h4>
                 <p>Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to
@@ -20,7 +20,7 @@
 
             </div>
 
-            <form (submit)="sendMail()" ngNativeValidate #myForm>
+            <form (submit)="sendMail()" ngNativeValidate #myForm  data-aos="zoom-in">
 
                 <div class="send-box" *ngIf="mailSent">
                     
@@ -41,7 +41,7 @@
 
         </div>
 
-        <div class="scroll-up">
+        <div class="scroll-up" data-aos="fade-down"  data-aos-anchor="myForm">
 
             <a href="#"><img src="assets/imgs/scroll_up_icon.png"></a>
 
