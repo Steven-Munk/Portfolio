@@ -17,6 +17,16 @@ body {
 }
 
 
+h2 {
+     font-weight: 700;
+     font-size: 90px;
+     height: 108px;
+     letter-spacing: 2px;
+     margin: 0px;
+     text-shadow: 0px 0px 10px white;
+}
+
+
 a {
      font-weight: 400;
      font-size: 23px;
@@ -77,15 +87,6 @@ button {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
      background: rgb(255, 71, 71);
-}
-
-
-h2 {
-     font-weight: 700;
-     font-size: 90px;
-     height: 108px;
-     letter-spacing: 2px;
-     margin: 0px;
 }
 
 
