@@ -12,7 +12,7 @@ export class PortfolioComponent {
       name: 'Join',
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
       description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      img: 'assets/imgs/join_img.png',
+      img: '../assets/imgs/join_img.png',
       github:'https://github.com/Icetune/Join',
       liveTest:'#',
       imgLeft: true
@@ -23,7 +23,7 @@ export class PortfolioComponent {
       description: 'simple Jump-and-Run game based on an object-oriented approach. Help pepe to defeat fred the crazy chicken.',
       img: '../assets/imgs/el_pollo_loco_img.png',
       github:'https://github.com/Icetune/Pollo-Loco',
-      liveTest:'https://steven-munk.developerakademie.net/El%20Pollo%20Loco/index.html',
+      liveTest:'https://steven-munk.de/El%20Pollo%20Loco/index.html',
       imgLeft: false
     },
     {
@@ -41,7 +41,7 @@ export class PortfolioComponent {
       description: 'Based on the PokéAPI a simple library that provides and catalogues pokemon information.',
       img: '../assets/imgs/pokedex_img.png',
       github:'https://github.com/Icetune/PokeDex',
-      liveTest:'https://steven-munk.developerakademie.net/Pokedex/index.html',
+      liveTest:'https://steven-munk.de/PokeDex/index.html',
       imgLeft: false
     },
     {
@@ -50,7 +50,7 @@ export class PortfolioComponent {
       description: 'A drinking game where you and your friends can pull cards of a stable, each card provides a different drinking task.',
       img: '../assets/imgs/placeholder_profile.png',
       github:'https://github.com/Icetune/Ring-of-Fire',
-      liveTest:'#',
+      liveTest:'https://steven-munk.de/ringoffire/index.html',
       imgLeft: true
     },
   ];

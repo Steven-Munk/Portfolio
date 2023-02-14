@@ -46,8 +46,9 @@ export class ContactComponent {
       messageField.disabled = false;
       sendButton.disabled = false;
     }, 4000);
+    
 
-    await fetch('https://steven-munk.developerakademie.net/send_mail/send_mail.php',
+    await fetch('https://steven-munk.de/send_mail/send_mail.php',
       {
         method: 'POST',
         body: fd
