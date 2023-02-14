@@ -3,9 +3,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
     position: relative;
-    bottom: 100px;
     overflow: hidden;
 }
 
@@ -16,18 +15,11 @@
 }
 
 
-.red-line-skills {
-    position: absolute;
-    right: 0;
-    top: 345px;
-    z-index: -1;
-}
-
-
 .orange-shadow-skills {
     position: absolute;
     left: 0;
-    top: 200px;
+    bottom: 0;
+    max-height: calc(100vh - 110px);
     z-index: -1;
 }
 
@@ -95,12 +87,6 @@ span {
     .my-skills-content {
         width: 90vw;
     }
-
-
-    .red-line-skills {
-        width: 3vw;
-    }
-
 }
 
 
@@ -109,13 +95,13 @@ span {
 
     .my-skills-content {
         width: 90vw;
+        gap: 10px;
     }
 
 
     .my-skills-icons {
         gap: 40px 80px;
     }
-
 }
 
 
@@ -150,19 +136,8 @@ span {
     }
 
 
-    .red-line-skills {
-        top: 55px;
-        width: 3vw;
-        height: 3px;
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
-    }
-
-
     .orange-shadow-skills {
-        top: 400px;
         transform-origin: left;
         transform: scale(0.6);
     }
-
 }
