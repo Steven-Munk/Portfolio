@@ -1,10 +1,12 @@
 
 .datenschutz-container {
     width: 100%;
-    margin-top: 110px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 9999;
+    background-color: rgb(20, 29, 47);
 }
 
 
@@ -51,6 +53,10 @@ a {
 
     .datenschutz {
         width: 90vw;
+    }
+
+    h1 {
+        max-width: 80%;
     }
 
 }

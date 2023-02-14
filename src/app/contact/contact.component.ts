@@ -32,7 +32,6 @@ export class ContactComponent {
     fd.append('email', emailField.value);
     fd.append('message', messageField.value);
 
-    //Animtion
     this.mailSent = true;
     setTimeout(() => {
       this.mailSent = false;

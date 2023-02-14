@@ -1,9 +1,11 @@
 .impressum-container {
     width: 100%;
-    margin-top: 110px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 9999;
+    background-color: rgb(20, 29, 47);
 }
 
 
