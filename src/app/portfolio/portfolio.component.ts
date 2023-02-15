@@ -13,7 +13,7 @@ export class PortfolioComponent {
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
       description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
       img: '../assets/imgs/join_img.png',
-      github:'https://github.com/Icetune/Join',
+      github:'https://github.com/Steven-Munk/Join',
       liveTest:'https://steven-munk.de/Join/index.html',
       imgLeft: true
     },
@@ -22,7 +22,7 @@ export class PortfolioComponent {
       foundation: 'JavaScript | HTML | CSS',
       description: 'A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to defeat Fred, the crazy chicken.',
       img: '../assets/imgs/el_pollo_loco_img.png',
-      github:'https://github.com/Icetune/Pollo-Loco',
+      github:'https://github.com/Steven-Munk/Pollo-Loco',
       liveTest:'https://steven-munk.de/El%20Pollo%20Loco/index.html',
       imgLeft: false
     },
@@ -40,7 +40,7 @@ export class PortfolioComponent {
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
       description: 'A drinking game where you and your friends can pull cards from a stable, each card provides a different drinking task.',
       img: '../assets/imgs/rof_img.png',
-      github:'https://github.com/Icetune/Ring-of-Fire',
+      github:'https://github.com/Steven-Munk/Ring-of-Fire',
       liveTest:'https://ring-of-fire-ea4f3.web.app/',
       imgLeft: true
     },
@@ -49,7 +49,7 @@ export class PortfolioComponent {
       foundation: 'JavaScript | HTML | CSS | Api',
       description: 'Based on the PokéAPI. A simple library that provides and catalogs pokemon information.',
       img: '../assets/imgs/pokedex_img.png',
-      github:'https://github.com/Icetune/PokeDex',
+      github:'https://github.com/Steven-Munk/PokeDex',
       liveTest:'https://steven-munk.de/Pokedex/index.html',
       imgLeft: false
     },
