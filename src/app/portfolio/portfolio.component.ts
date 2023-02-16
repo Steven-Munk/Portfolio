@@ -26,15 +26,6 @@ export class PortfolioComponent {
       liveTest:'https://steven-munk.de/El%20Pollo%20Loco/index.html',
       imgLeft: false
     },
-    // {
-    //   name: 'Simple CRM',
-    //   foundation: 'Angular | Firebase',
-    //   description: 'A very Simple Customer Relationship Management system working with CRUD functionality.',
-    //   img: '../assets/imgs/placeholder_profile.png',
-    //   github:'#',
-    //   liveTest:'#',
-    //   imgLeft: true
-    // },
     {
       name: 'Ring of Fire',
       foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
