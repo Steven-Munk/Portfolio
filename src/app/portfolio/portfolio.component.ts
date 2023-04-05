@@ -27,22 +27,13 @@ export class PortfolioComponent {
       imgLeft: false
     },
     {
-      name: 'Ring of Fire',
-      foundation: 'Angular | TypeScript | HTML | CSS | Firebase',
-      description: 'A drinking game where you and your friends can pull cards from a stable, each card provides a different drinking task.',
-      img: '../assets/imgs/rof_img.png',
-      github:'https://github.com/Steven-Munk/Ring-of-Fire',
-      liveTest:'https://ring-of-fire-ea4f3.web.app/',
+      name: 'My Personal Portfolio',
+      foundation: 'Angular | TypeScript | HTML | SCSS ',
+      description: 'This is my very own website to showcase some of my projects, you are actually using this web application right now!',
+      img: '../assets/imgs/portfolio_portfolio_img.png',
+      github:'https://github.com/Steven-Munk/Portfolio',
+      liveTest:'https://steven-munk.de/',
       imgLeft: true
-    },
-    {
-      name: 'Pokédex',
-      foundation: 'JavaScript | HTML | CSS | Api',
-      description: 'Based on the PokéAPI. A simple library that provides and catalogs pokemon information.',
-      img: '../assets/imgs/pokedex_img.png',
-      github:'https://github.com/Steven-Munk/Pokedex',
-      liveTest:'https://steven-munk.de/Pokedex/index.html',
-      imgLeft: false
-    },
+    }
   ];
 }
